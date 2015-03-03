@@ -1,5 +1,11 @@
+body {
+  background-color: $medium-gray;
+}
+
 #main {
-    @include outer-container;
+  @include outer-container;
+  @include pad(10px);
+  background-color: $white;
 }
 
 ol {
@@ -21,9 +27,9 @@ ol {
 }
 
 .large-column {
-  @include span-columns(8 of 12);
+  @include span-columns(9 of 12);
 }
 
 .small-column {
-  @include span-columns(4 of 12);
+  @include span-columns(3 of 12);
 }

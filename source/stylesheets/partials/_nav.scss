@@ -1,16 +1,19 @@
 nav {
   border-bottom: 1px solid $base-border-color;
   margin: em(30) 0;
-
   ul {
-    display: inline-block;
+    li {
+      display: inline-block;
+    }
+    float: right;
     margin-bottom: em(10);
   }
 }
 
 .blog-title {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 700;
   letterspacing: 4px;
-  text-transform: uppercase;
+  color: $dark-blue;
 }
+
