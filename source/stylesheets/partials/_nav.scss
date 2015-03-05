@@ -1,5 +1,4 @@
 nav {
-  border-bottom: 1px solid $base-border-color;
   margin: em(30) 0;
   ul {
     li {
@@ -8,12 +7,26 @@ nav {
     float: right;
     margin-bottom: em(10);
   }
+  a {
+    color: $white;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($white, 15%);
+    }
+
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  }
 }
 
 .blog-title {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 700;
   letterspacing: 4px;
-  color: $dark-blue;
+  color: $white;
 }
 

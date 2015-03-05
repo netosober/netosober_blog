@@ -1,24 +1,16 @@
 <footer>
-  <ul class="large-column">
-    <li>
-      <ol>
-        <% blog.articles[0...10].each do |article| %>
-          <li>
-            <%= link_to article.title, article %>
-            <span><%= article.date.strftime('%b %e') %></span>
-          </li>
-        <% end %>
-      </ol>
-    </li>
-  </ul>
+  <div>
+    <ul class="contact-me">
 
-  <ul class="small-column">
-    <li>
-      <ol>
-        <% blog.tags.each do |tag, articles| %>
-          <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-        <% end %>
-      </ol>
-    </li>
-  <ul>
+      <li>
+        <a href="http://github.com/netosober"><i class="fa fa-github fa-2x"></i></a>
+      </li>
+      <li>
+        <a href="http://twitter.com/netosober"><i class="fa fa-twitter fa-2x"></i></a>
+      </li>
+      <li>
+        <i class="fa fa-linkedin fa-2x"></i>
+      </li>
+    <ul>
+  <div>
 </footer>

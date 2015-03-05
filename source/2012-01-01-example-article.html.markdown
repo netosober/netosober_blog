@@ -12,6 +12,8 @@ puts "hello"
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at blandit lacus, sed lacinia dui. Quisque placerat luctus sollicitudin. Fusce efficitur tellus metus, ut ullamcorper ex malesuada eu. Proin vestibulum quam sed tellus bibendum convallis. Integer a ligula id orci eleifend tempus sit amet at massa. Cras a nunc luctus dolor dignissim sagittis. Vivamus eget elit eget velit laoreet fringilla. Quisque a commodo nunc. Mauris aliquam pretium arcu, ut tincidunt urna iaculis a. Maecenas sit amet hendrerit tellus. Praesent luctus elit diam, at aliquam purus maximus quis. Integer magna tortor, blandit at elit quis, semper euismod odio. Sed congue viverra interdum. Praesent et lobortis eros.
 
+READMORE
+
 Morbi et posuere mauris, vitae convallis tellus. Nunc eu ipsum at ipsum dignissim lobortis. Donec rutrum sem id neque auctor consectetur. Nullam non enim consequat, pharetra dui et, accumsan lacus. Mauris ultricies nisi sit amet suscipit auctor. Cras at ultricies libero. Phasellus venenatis, nulla et condimentum egestas, ante quam laoreet mi, ac scelerisque justo magna sed nisl. Sed eget risus vitae velit congue suscipit a sed ipsum.
 
 Fusce est turpis, aliquam ut consectetur sit amet, porta vitae massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis sollicitudin elit vitae facilisis pretium. Nulla facilisi. Fusce lobortis mauris ex, sed aliquet libero egestas et. Ut consectetur diam in diam mattis vulputate. Vestibulum sollicitudin nunc eu dui egestas, vitae maximus justo convallis.

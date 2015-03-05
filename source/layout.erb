@@ -9,12 +9,20 @@
     <link href='http://fonts.googleapis.com/css?family=Abel|Istok+Web|Josefin+Slab|Maven+Pro' rel='stylesheet' type='text/css'>
   </head>
   <body>
-        
-    <div id="main" role="main">
-      <%= partial "partials/nav" %>
-      <%= yield %>
-      <%= partial "partials/footer" %>
+    <div id="header" role="header">  
+      <div>
+        <%= partial "partials/nav" %>
+      </div>
     </div>
-
+    <div id="main" role="main"> 
+      <div>
+        <%= yield %>
+      </div>
+    </div>
+    <div id="footer" role="footer">  
+      <div>
+        <%= partial "partials/footer" %>
+      </div>
+    </div>
   </body>
 </html>
