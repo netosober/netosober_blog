@@ -1,0 +1,5 @@
+<% wrap_layout :layout do %>
+  <h3 class="article_title"><%= current_page.title %></h3>
+  <p><em><%= current_page.date.strftime('%b %d, %Y')%></em></p>
+  <%= yield %>
+<% end %>

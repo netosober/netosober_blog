@@ -8,11 +8,12 @@ body {
 
 #header {
   background-color: $green;
-  color: $white;
+  @include background-image(url("/images/GreenBrush.png"));
 }
 
 #footer {
   background-color: $dark-blue;
+  @include background-image(url("/images/BlueBrush.png"));
 }
 
 #main, #footer, #header {
@@ -50,4 +51,9 @@ ol {
 
 .medium-column {
   @include span-columns(6 of 12);
+}
+
+.article_title {
+  color: $blue;
+  font-size: 1.2em;
 }
