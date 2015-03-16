@@ -7,13 +7,16 @@ body {
 }
 
 #header {
-  background-color: $green;
-  @include background-image(url("/images/GreenBrush.png"));
+  background-color: $header-background;
+  > div {
+    @include background-image(url("/images/header.png"));
+    background-repeat: no-repeat, no-repeat;
+  }
 }
 
 #footer {
   background-color: $dark-blue;
-  @include background-image(url("/images/BlueBrush.png"));
+  @include background-image(url("/images/footer.png"));
 }
 
 #main, #footer, #header {
